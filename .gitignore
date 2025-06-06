@@ -1,0 +1,33 @@
+# Node modules
+node_modules/
+
+# 빌드 결과
+dist/
+build/
+
+# 환경 변수 - 프론트, 백엔드 각각 위치
+frontend/.env
+backend/.env
+
+# Firebase 관리자 키
+backend/serviceAccountKey.json
+
+# IDE 설정 파일
+.vscode/
+.idea/
+
+# 운영체제별 불필요 파일
+.DS_Store
+Thumbs.db
+
+# 로그 파일
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 테스트 커버리지 결과
+coverage/
+
+# 기타 임시 파일
+*.log
+*.tmp

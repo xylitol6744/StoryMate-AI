@@ -1,0 +1,193 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'DNFBitBitv2';
+  src: url('/fonts/DNFBitBitv2.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  font-family: 'DNFBitBitv2', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+html, body, #root {
+  height: 100%;
+  min-height: 100%;
+  width: 100vw;
+  min-width: 100vw;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  background: url('/bg.jpg') center/cover no-repeat fixed;
+  background-color: #222;
+}
+
+button {
+  border-radius: 8px;
+  border: none;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: box-shadow 0.25s;
+}
+
+button:hover {
+  box-shadow: 0 0 24px 0 rgba(255, 255, 255, 0.95);
+}
+
+.animated-gradient-A {
+  background: linear-gradient(
+    270deg,
+    #b5bdfc,
+    #e1d7f6,
+    #ffd1c1,
+    #fbb6ce,
+    #a385ff,
+    #7ae7c7,
+    #b5bdfc
+  );
+  background-size: 400% 400%;
+  animation: gradient-move 10s ease-in-out infinite;
+  color: #fff;
+}
+
+.hover-animated-gradient-A:hover {
+  background: linear-gradient(
+    270deg,
+    #b5bdfc,
+    #e1d7f6,
+    #ffd1c1,
+    #fbb6ce,
+    #a385ff,
+    #7ae7c7,
+    #b5bdfc
+  );
+  background-size: 400% 400%;
+  animation: gradient-move 10s ease-in-out infinite;
+  color: #fff;
+}
+
+.hover-animated-gradient-T:hover {
+  background: linear-gradient(
+    270deg,
+    #b5bdfc,
+    #e1d7f6,
+    #ffd1c1,
+    #fbb6ce,
+    #a385ff,
+    #7ae7c7,
+    #b5bdfc
+  );
+  background-size: 400% 400%;
+  animation: gradient-move 10s ease-in-out infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.hover-animated-gradient-dream:hover {
+  background: linear-gradient(
+    270deg,
+    #a7c8ff,
+    #c8e7f5,
+    #d3eaf2,
+    #c8d9f0,
+    #b7f1ec,
+    #a7c8ff
+  );
+  background-size: 400% 400%;
+  animation: gradient-move 10s ease-in-out infinite;
+  color: #fff;
+}
+
+.animated-gradient-admin {
+  background: linear-gradient(
+    270deg,
+    #818cf8,
+    #a855f7,
+    #ec4899,
+    #818cf8
+  );
+  background-size: 400% 400%;
+  animation: gradient-flow 8s ease-in-out infinite;
+  color: #fff;
+  border: none;
+}
+
+@keyframes gradient-flow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradient-move {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(140, 140, 160, 0.2) rgba(0, 0, 0, 0.02);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 7px;
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(140, 140, 160, 0.14);
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(140, 140, 160, 0.34);
+}
+
+.keep-all-word {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+.bubble {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(6px);
+  border-radius: 16px;
+  padding: 0.75rem 1rem;
+  color: white;
+  text-align: left;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+}
