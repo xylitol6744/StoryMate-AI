@@ -571,7 +571,7 @@ function History() {
                                 tabIndex={0}
                                 type="button"
                               >
-                                저장
+                                받기
                               </button>
                             )}
                             <button
