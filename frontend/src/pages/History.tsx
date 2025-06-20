@@ -487,7 +487,7 @@ function History() {
                               fontWeight: 400,
                               userSelect: "text",
                               maxHeight: "81%",
-                              overflowY: "auto",
+                              overflowY: "hidden",
                               lineHeight: "1.85",
                               fontFamily: "inherit",
                               letterSpacing: "0.01em",
