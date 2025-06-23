@@ -10,15 +10,14 @@ import chatRouter from "./routes/chat";
 import summaryRouter from "./routes/summary";
 import storyRouter from "./routes/story";
 
-import serviceAccount from "./serviceAccountKey.json";
-
-// 환경 변수 적용
 dotenv.config();
+
+const serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT_KEY!);
 
 // Firebase Admin 초기화
 if (!admin.apps.length) {
   admin.initializeApp({
-    credential: admin.credential.cert(serviceAccount as admin.ServiceAccount),
+    credential: admin.credential.cert(serviceAccount),
   });
 }
 
