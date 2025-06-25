@@ -3,13 +3,15 @@
     "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "node",
+    "outDir": "dist",
+    "rootDir": "src",
     "strict": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
-    "noEmit": true,
     "types": ["node"],
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true
-  }
+  },
+  "include": ["src"]
 }
