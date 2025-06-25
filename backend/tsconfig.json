@@ -4,15 +4,14 @@
     "module": "ESNext",
     "moduleResolution": "node",
     "outDir": "dist",
-    "rootDir": "src",
+    "rootDir": ".",
     "strict": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
     "types": ["node"],
     "forceConsistentCasingInFileNames": true,
-    "isolatedModules": true,
-    "moduleSuffixes": [".js", ".ts"]
+    "isolatedModules": true
   },
-  "include": ["src/**/*"]
+  "include": ["index.ts", "routes"]
 }
