@@ -6,9 +6,9 @@ import admin from "firebase-admin";
 import rateLimit from "express-rate-limit";
 import OpenAI from "openai";
 
-import chatRouter from "./routes/chat";
-import summaryRouter from "./routes/summary";
-import storyRouter from "./routes/story";
+import chatRouter from "./routes/chat.js";
+import summaryRouter from "./routes/summary.js";
+import storyRouter from "./routes/story.js";
 
 dotenv.config();
 
