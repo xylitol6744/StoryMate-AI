@@ -4,7 +4,7 @@
     "module": "ESNext",
     "moduleResolution": "node",
     "outDir": "dist",
-    "rootDir": ".",
+    "rootDir": "./",
     "strict": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
@@ -13,5 +13,5 @@
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true
   },
-  "include": ["index.ts", "routes"]
+  "include": ["index.ts", "routes/**/*"]
 }
