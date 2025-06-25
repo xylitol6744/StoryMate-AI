@@ -11,7 +11,9 @@
     "resolveJsonModule": true,
     "types": ["node"],
     "forceConsistentCasingInFileNames": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+    "moduleSuffixes": [".js", ".ts"],
+    "allowImportingTsExtensions": true  
   },
   "include": ["."]
 }
