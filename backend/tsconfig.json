@@ -4,7 +4,7 @@
     "module": "ESNext",
     "moduleResolution": "node",
     "outDir": "dist",
-    "rootDir": "src"
+    "rootDir": "src",
     "strict": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
@@ -12,8 +12,7 @@
     "types": ["node"],
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
-    "moduleSuffixes": [".js", ".ts"],
-    "allowImportingTsExtensions": true
+    "moduleSuffixes": [".js", ".ts"]
   },
-  "include": ["src"]
+  "include": ["src/**/*"]
 }
