@@ -1,5 +1,5 @@
 import express, { Request, Response } from "express";
-import { wrapAsync, firestore } from "../index";
+import { wrapAsync, firestore } from "../index.js";
 import OpenAI from "openai";
 
 declare module "express-serve-static-core" {
