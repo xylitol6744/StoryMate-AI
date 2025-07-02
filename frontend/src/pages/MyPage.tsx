@@ -19,7 +19,7 @@ function MyPage() {
   const [totalCount, setTotalCount] = useState(0);
   const [completedCount, setCompletedCount] = useState(0);
   const [tokenUsed, setTokenUsed] = useState<number>(0);
-  const tokenLimit = 70000;
+  const tokenLimit = 144000;
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
