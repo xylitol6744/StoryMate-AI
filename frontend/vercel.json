@@ -2,7 +2,7 @@
   "redirects": [
     {
       "source": "/(.*)",
-      "destination": "https://story-mate-ai-7dkl.vercel.app/",
+      "destination": "https://story-mate-ai-7dkl.vercel.app/$1",
       "permanent": true
     }
   ]
