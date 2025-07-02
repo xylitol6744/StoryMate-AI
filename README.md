@@ -23,35 +23,6 @@ AI와 대화하며 꿈 이야기를 만들어가는 웹 기반 창작 서비스�
 
 ## 📂 환경 변수 (.env)
 
-아래 정보는 `.env` 파일을 통해 설정됩니다.  
-`.env` 파일은 Git에 포함되지 않으며, 아래 예시를 참고하여 생성해야 합니다:
-\frontend/.env OPENAI_API_KEY
-
-\frontend/.env
-VITE_FIREBASE_API_KEY=your_firebase_api_key
-VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
-VITE_FIREBASE_PROJECT_ID=your_project_id
-VITE_FIREBASE_STORAGE_BUCKET=your_storage_bucket
-VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
-VITE_FIREBASE_APP_ID=your_app_id
-
-\backend/.env
-OPENAI_API_KEY
-\backend/serviceAccountKey.json
-{
-  "type": " ",
-  "project_id": " ",
-  "private_key_id": " ",
-  "private_key": " ",
-  "client_email": " ",
-  "client_id": " ",
-  "auth_uri": " ",
-  "token_uri": " ",
-  "auth_provider_x509_cert_url": " ",
-  "client_x509_cert_url": " ",
-  "universe_domain": " "
-}
-
 📂 환경 변수 (.env)
 
 아래 정보는 `.env` 파일을 통해 설정됩니다.
