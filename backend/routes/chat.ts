@@ -25,7 +25,7 @@ const SYSTEM_PROMPT = `
 - 한글로만 대화해줘.
 `;
 
-const TOKEN_LIMIT = 70000;
+const TOKEN_LIMIT = 144000;
 const MAX_TOKENS = 444;
 
 export default function chatRouter(openai: OpenAI) {
