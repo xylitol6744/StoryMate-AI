@@ -1,3 +1,5 @@
-"scripts": {
-  "build": "vite build"
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
 }
